@@ -1,5 +1,5 @@
 # YEAR_PERSON_TOPIC
-This is a template for GitHub repositories for data analysis projects in the Ewald Lab. Select this template to initialise your project according to Ewald Lab conventions.
+This is a template for GitHub repositories for data analysis projects in the Ewald Lab. Select this template to initialise your project according to Ewald Lab conventions. Rename the repository following the YEAR_PERSON_TOPIC format, for example 2025_Ewald_CircadianRhythm.
 
 ## Project Overview
 - 1-2 sentences background on the project
