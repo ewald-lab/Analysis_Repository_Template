@@ -1,16 +1,35 @@
-# YEAR_PERSON_TOPIC
-This is a template for GitHub repositories for data analysis projects in the Ewald Lab. Select this template to initialise your project according to Ewald Lab conventions. Rename the repository following the YEAR_PERSON_TOPIC format, for example 2025_Ewald_CircadianRhythm. If you are confused about any of the repository components or instructions, please ask!
+# 🧪 Ewald Lab Data Analysis Template
+This is a template for GitHub repositories for data analysis projects in the Ewald Lab. Each analysis module has its own Python environment managed by [uv](https://github.com/astral-sh/uv). At the repo root, we enforce code style and linting with **Ruff** via pre-commit hooks. Rename the repository following the YEAR_PERSON_TOPIC format, for example 2025_Ewald_CircadianRhythm. See the [Ewald Lab GitHub guidelines](https://ewaldlab.org/handbook/site/git-repo/) for more advice.
 
-## Project Overview
+If you are confused about any of the repository components or instructions, please ask!
+
+## Setup Instructions
+
+### 1. Clone the repository (FORK? RENAME? HOW TO USE TEMPLATE?)
+```bash
+git clone https://github.com/my-lab/my-project.git
+cd my-project
+```
+
+### 2. Set up development tools
+Recommend using the uv package manager. Installation instructions are here. Use uv to install the development environment in the repository root.
+```bash
+uv venv .venv
+source .venv/bin/activate   # or .venv\Scripts\activate on Windows
+uv pip install -r requirements-dev.txt
+```
+Now install pre-commit hooks:
+```bash
+pre-commit install
+```
+
+### 3. Set up the README
+Replace the template README introduction with:
 - 1-2 sentences background on the project
 - Specific hypotheses you are testing or engineering problems you are trying to solve
 - Brief description of each section of the analysis
 
-## Repository Structure
-Code is organised in different "analysis modules". How to split the analysis is up to you - see the [Ewald Lab GitHub guidelines](https://ewaldlab.org/handbook/site/git-repo/) for more advice. An empty structure for the first module is present in the template. Create new modules with the same structure as needed. 
-
-Each module has its own Python or R environment. Instructions for installing and activating the environment using the uv package manager are specified in the "install_env.sh" script, with dependencies listed in the "requirements.txt" file.
-
+### 4. Set up first analysis module
 To install and activate a new environment:
 
 ```bash
@@ -18,6 +37,9 @@ cd ./00.module_name
 ./install_env.sh
 source env-name/bin/activate
 ```
-
 To install a new package with uv: `uv pip install pkg-name`. To add newly installed packages to the dependency file: `uv pip freeze > requirements.txt`.
+
+
+
+
 
