@@ -1,0 +1,22 @@
+[tool.ruff]
+# Match your supported Python versions
+target-version = "py310"
+
+# Enable rules (e.g. flake8 + isort equivalents)
+select = ["E", "F", "I"]
+
+# Exclude common dirs
+exclude = [
+    ".git",
+    "__pycache__",
+    "build",
+    "dist",
+    ".venv",
+    "venv",
+]
+
+# Maximum line length (PEP 8 default is 79; Black uses 88)
+line-length = 88
+
+# Fix issues automatically with `ruff check --fix`
+fix = true
