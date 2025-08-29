@@ -23,12 +23,6 @@ Now install pre-commit hooks:
 pre-commit install
 ```
 
-### 3. Set up the README
-Replace the template README introduction with:
-- 1-2 sentences background on the project
-- Specific hypotheses you are testing or engineering problems you are trying to solve
-- Brief description of each section of the analysis
-
 ### 4. Set up first analysis module
 To install and activate a new environment:
 
@@ -38,6 +32,21 @@ cd ./00.module_name
 source env-name/bin/activate
 ```
 To install a new package with uv: `uv pip install pkg-name`. To add newly installed packages to the dependency file: `uv pip freeze > requirements.txt`.
+
+### 3. Modify the README
+Replace the template README introduction and setup instructions with:
+- 1-2 sentences background on the project
+- Specific hypotheses you are testing or engineering problems you are trying to solve
+- Brief description of each section of the analysis
+
+
+## Contributions
+
+### Fork the repo
+
+### Managing environments
+
+### Make a new analysis module
 
 
 
