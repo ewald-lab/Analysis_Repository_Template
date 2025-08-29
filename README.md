@@ -7,7 +7,7 @@ This is a template for GitHub repositories for data analysis projects in the Ewa
 - Brief description of each section of the analysis
 
 ## Repository Structure
-Code is organised in different "analysis modules". How to split the analysis is up to you - see the [Ewald Lab GitHub guidelines](https://ewaldlab.org/handbook/site/git-repo/) for more advice.
+Code is organised in different "analysis modules". How to split the analysis is up to you - see the [Ewald Lab GitHub guidelines](https://ewaldlab.org/handbook/site/git-repo/) for more advice. An empty structure for the first module is present in the template. Create new modules with the same structure as needed. 
 
 Each module has its own Python or R environment. Instructions for installing and activating the environment using the uv package manager are specified in the "install_env.sh" script, with dependencies listed in the "requirements.txt" file.
 
