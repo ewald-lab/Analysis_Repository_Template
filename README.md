@@ -13,7 +13,7 @@ If you are confused about any of the repository components or instructions, plea
 - Click **Create repository from template**
 
 ### 2. Fork the repository
-Fork and clone the repository. This makes it easier to manage contributions from multiple collaborators. For more details on how to sync your fork with the main branch, including making contributions, see the documentation [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo). 
+Fork the repository and clone your fork. This makes it easier to manage contributions from multiple collaborators. For more details on how to sync your fork with the main branch, including making contributions, see the documentation [here](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo). 
 
 ### 3. Set up development tools
 Use uv to install the development environment in the repository root. Installation instructions [here](https://docs.astral.sh/uv/getting-started/installation/).
