@@ -1,5 +1,5 @@
 # 🧪 Ewald Lab Data Analysis Template
-This is a template for GitHub repositories for data analysis projects in the Ewald Lab. By sticking to some structure and styling conventions, we make our code more reproducible and reusable! At the repo root, we enforce code style and linting with **Ruff** via pre-commit hooks. See the [Ewald Lab GitHub guidelines](https://ewaldlab.org/handbook/site/git-repo/) for more details.
+This is a template for GitHub repositories for data analysis projects in the Ewald Lab. By sticking to some structure and styling conventions, we make our code more reproducible and reusable. At the repo root, we enforce code style and linting with **Ruff** via pre-commit hooks. See the [Ewald Lab GitHub guidelines](https://ewaldlab.org/handbook/site/git-repo/) for more details.
 
 If you are confused about any of the repository components or instructions, please ask someone to explain!
 
