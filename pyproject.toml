@@ -1,22 +1,15 @@
 [tool.ruff]
-# Match your supported Python versions
-target-version = "py310"
+line-length = 120
+src = ["<PROJECT_NAME>"]
+target-version = "py312"
+include = ["pyproject.toml", "<PROJECT_NAME>/**/*.py"]
 
-# Enable rules (e.g. flake8 + isort equivalents)
-select = ["E", "F", "I"]
-
-# Exclude common dirs
-exclude = [
-    ".git",
-    "__pycache__",
-    "build",
-    "dist",
-    ".venv",
-    "venv",
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "UP", "W"]
+ignore = [
+    "E501",   # Line too long (handled by formatter)
 ]
 
-# Maximum line length (PEP 8 default is 79; Black uses 88)
-line-length = 88
-
-# Fix issues automatically with `ruff check --fix`
-fix = true
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
