@@ -25,7 +25,7 @@ uv pip install -r requirements-dev.txt
 ```
 Now install pre-commit hooks:
 ```bash
-pre-commit install
+pre-commit install --hook-type pre-commit --hook-type pre-push
 ```
 
 ### 4. Set up first analysis module
