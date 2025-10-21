@@ -33,6 +33,7 @@ Each analysis module has its own Python environment managed by [uv](https://gith
 
 ```bash
 cd ./00.module_name
+chmod ugo+x install_env.sh
 ./install_env.sh
 source env-name/bin/activate
 ```
